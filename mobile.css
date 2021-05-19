@@ -1,0 +1,94 @@
+:root {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 3.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 2rem;
+}
+
+header {
+    height: 100px;
+    background-color: #ecf2f8;
+}
+
+section {
+    background-color: #ecf2f8;
+    padding: 40px;
+}
+
+figure {
+    border-radius: 40px;
+    /*border: rgba(146, 231, 231, 0.5) solid;*/
+    box-shadow: 0.5rem 0.5rem 0px 0px rgba(192, 192, 192, 0.3);
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+figure > img {
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+}
+
+figcaption {
+    background-color: white;
+    padding: 80px;
+    border-radius: 0 0 40px 40px;
+}
+
+figcaption ul {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    padding-right: 150px;
+}
+
+.name {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.auteur {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.5rem;
+}
+.auteur img {
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+}
+
+.auteur button {
+    width: 90px;
+    height: 90px;
+    background-color: #ecf2f8;
+    border: white solid;
+    border-radius: 100%;
+}
+
+.auteur i {
+    font-size: 3.5rem;
+    color: grey;
+}
+
+footer {
+    background-color: #ecf2f8;
+    display: none;
+}
