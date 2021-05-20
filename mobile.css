@@ -8,13 +8,17 @@ h1 {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.7);
     line-height: 3rem;
+    margin-bottom: 40px;
 }
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #ecf2f8;
-    padding-top: 100px;
+    padding: 100px 20px 0 20px;
+    max-width: 450px;
+    margin-right: 0px;
 }
 
 p {
@@ -27,23 +31,23 @@ p {
 figure {
     border-radius: 40px;
     box-shadow: 0.5rem 0.5rem 0px 0px rgba(192, 192, 192, 0.3);
-    width: 300px;
-}
-
-h1 {
-    margin-bottom: 40px;
+    min-width: 335px;
+    max-width: 450px;
+    margin-bottom: 20px;
 }
 
 figure > img {
     border-radius: 40px 40px 0 0;
-    width: 300px;
+    min-width: 335px;
+    max-width: 450px;
 }
 
 figcaption {
     background-color: white;
     padding: 40px;
     border-radius: 0 0 40px 40px;
-    width: 300px;
+    min-width: 335px;
+    max-width: 450px;
 }
 
 figcaption ul {
@@ -51,7 +55,7 @@ figcaption ul {
     flex-direction: column;
     color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    left: 80px;
+    left: 65px;
     top: 5px;
 }
 
@@ -67,14 +71,14 @@ figcaption ul {
     position: relative;
 }
 .auteur img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 
 .auteur button {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: #ecf2f8;
     border: white solid;
     border-radius: 50%;
@@ -85,7 +89,8 @@ figcaption ul {
     color: grey;
 }
 
-footer {
-    background-color: #ecf2f8;
-    display: none;
+footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    max-width: 450px;
 }

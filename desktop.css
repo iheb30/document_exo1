@@ -1,0 +1,41 @@
+:root {
+    font-size: 12px;
+}
+
+body {
+    display: block;
+    min-width: 729px;
+    max-width: 900px;
+    height: 400px;
+}
+
+figure {
+    display: flex;
+    border-radius: 40px;
+    box-shadow: 0.5rem 0.5rem 0px 0px rgba(192, 192, 192, 0.3);
+    min-width: 729px;
+    max-width: 900px;
+    height: 400px;
+}
+
+figure > img {
+    border-radius: 40px 0 0 40px;
+    min-width: 364.5px;
+    height: 400px;
+}
+
+figcaption {
+    border-radius: 0 40px 40px 0;
+    min-width: 364.5px;
+    height: 400px;
+}
+
+h1 {
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8rem;
+    margin-bottom: 20px;
+}
