@@ -3,13 +3,14 @@
 }
 
 body {
-    display: block;
-    min-width: 729px;
-    max-width: 900px;
-    height: 400px;
+    height: 0;
+}
+.container {
+    flex-direction: row;
+    justify-content: center;
 }
 
-figure {
+.la {
     display: flex;
     border-radius: 40px;
     box-shadow: 0.5rem 0.5rem 0px 0px rgba(192, 192, 192, 0.3);
@@ -28,6 +29,13 @@ figcaption {
     border-radius: 0 40px 40px 0;
     min-width: 364.5px;
     height: 400px;
+    position: relative;
+}
+
+.auteur {
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
 }
 
 h1 {
@@ -35,7 +43,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
+figcaption p {
     line-height: 1.8rem;
-    margin-bottom: 20px;
 }
