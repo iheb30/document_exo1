@@ -46,3 +46,7 @@ h1 {
 figcaption p {
     line-height: 1.8rem;
 }
+
+.network {
+    width: 350px;
+}

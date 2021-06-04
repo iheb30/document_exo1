@@ -97,6 +97,16 @@ figcaption ul {
     color: grey;
 }
 
+.network {
+    background-color: black;
+    border: 3px black solid;
+    width: 255px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+
 footer {
     font-size: 0.9rem;
     text-align: center;
